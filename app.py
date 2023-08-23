@@ -57,6 +57,3 @@ def home():
         return render_template('index.html', data=data, headers=headers)
     else:
         return render_template('index.html', data=[], headers=[])
-
-if __name__ == '__main__':
-    app.run()
